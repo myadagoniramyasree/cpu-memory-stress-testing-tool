@@ -1,0 +1,23 @@
+# Object files and directories
+obj/
+*.o
+
+# Executable binaries
+stress_tool
+stress_worker
+
+# Core dumps and logs
+core
+core.*
+*.log
+
+# Keep results directory structure
+results/*
+!results/.gitkeep
+!results/test_history.csv
+
+# Temporary files
+*~
+*.swp
+.DS_Store
+Thumbs.db
